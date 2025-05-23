@@ -22,13 +22,9 @@
         body { background-color: #feabe6; font-family: Consolas, monospace; text-transform: lowercase;}
         .container { width: 800px; margin: auto; border: 3px dashed #ff69b4; padding: 20px; }
         h1 { color: #44383f; text-align: left; }
-        img { border: 2px solid transparent; }
-        /* marquee { color: #47cff5; font-size: 1.2em; } */
+        img { border: 2px transparent #1f1f1f; }
+        marquee { color: #47cff5; font-size: 1.2em; }
         .buttons-row {  position: fixed; bottom: 0; left: 0; width: 100vw; padding: 8px 0; display: flex; justify-content: center; align-items: center; gap: 1px; margin-top:50px; margin-bottom: -50px; z-index: 9999;}
-        @keyframes marquee {
-            0% { transform: translateX(100%); }
-            100% { transform: translateX(-100%); }
-        }
     </style>
 </head>
 <body>
@@ -38,13 +34,11 @@
         <a href="about.html">about</a>
         <a href="nonfiction.html" style="margin:0 15px;">non-fiction</a>
         <a href="#" style="margin:0 15px;">fiction</a>
-        <div style="color: #47cff5; font-size: 1.2em; white-space: nowrap; overflow: hidden;">
-            <span style="display: inline-block; animation: marquee 8s linear infinite;">uhhhh</span>
-        </div>
-        <p>hey</p>
-                100% { transform: translateX(-100%); }
-            }
-        </style>
+        <a href="#" style="margin:0 15px;">pictures</a>
+    </nav>
+     <div class="container">
+        <h1>Hi! I'm Hana Kim!</h1>
+        <marquee>uhhhh</marquee>
         <p>hey</p>
         <ul>
             <li><a href="about.html">about me</a></li>
